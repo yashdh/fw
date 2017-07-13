@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+	<!-- <parameter name="browserName" value="GC" /> -->
+
+	<test name="Test">
+		<parameter name="browserName" value="GC" />
+		<classes>
+			<class name="com.volaris.testscripts.Re10" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<parameter name="browserName" value="GC" />
+		<classes>
+			<class name="com.volaris.testscripts.Re10" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
